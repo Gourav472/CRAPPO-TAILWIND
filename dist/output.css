@@ -737,16 +737,16 @@ video {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .z-50 {
   z-index: 50;
 }
 
 .z-\[50\] {
   z-index: 50;
-}
-
-.z-20 {
-  z-index: 20;
 }
 
 .float-start {
@@ -854,6 +854,14 @@ video {
 
 .mt-\[64px\] {
   margin-top: 64px;
+}
+
+.mt-\[13px\] {
+  margin-top: 13px;
+}
+
+.mt-\[px\] {
+  margin-top: px;
 }
 
 .box-border {
@@ -3109,10 +3117,6 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
 }
 
 .ease-in {
